@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ninja Cat</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script>
+
+    //initialize jQuery
+    $(document).ready(function(){
+
+        $(".img00").click(function(){
+            $(".img00").slideToggle("slow");
+        });
+
+        $(".img01").click(function(){
+            $(".img01").slideToggle("slow");
+        });
+
+        $(".img02").click(function(){
+            $(".img02").slideToggle("slow");
+        });
+
+        $(".img03").click(function(){
+            $(".img03").slideToggle("slow");
+        });
+
+        $(".img04").click(function(){
+            $(".img04").slideToggle("slow");
+        });
+        
+
+    });
+    
+    </script>
+
+</head>
+<body>
+
+    <div id="wrapper">
+
+        <img class = "slider img00" src="img/ninja0.png" alt="ninja0.png">
+        <img class = "slider img00 hidden" src="img/cat0.png" alt="ninja0.png">
+        <img class = "slider img01" src="img/ninja1.png" alt="ninja1.png">
+        <img class = "slider img01 hidden" src="img/cat1.png" alt="ninja1.png">
+        <img class = "slider img02" src="img/ninja2.png" alt="ninja2.png">
+        <img class = "slider img02 hidden" src="img/cat2.png" alt="ninja2.png">
+        <img class = "slider img03" src="img/ninja3.png" alt="ninja3.png">
+        <img class = "slider img03 hidden" src="img/cat3.png" alt="ninja3.png">
+        <img class = "slider img04" src="img/ninja4.png" alt="ninja4.png">
+        <img class = "slider img04 hidden" src="img/cat4.png" alt="ninja4.png">
+    
+    </div>
+    
+</body>
+</html>
